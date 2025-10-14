@@ -1,0 +1,148 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: linear-gradient(120deg, #b0b4b7,#b0b4b7,#b0b4b7);
+  background-size: 400% 400%;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  background: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=80') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.hero .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(4px);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 2.4em;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin-top: -40px;
+  z-index: 3;
+}
+
+/* Reader Box */
+.reader-container {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  backdrop-filter: blur(10px);
+}
+
+textarea {
+  width: 96.5%;
+  height: 150px;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+  outline: none;
+}
+
+textarea:focus {
+  box-shadow: 0 0 8px #2563eb;
+}
+
+/* Buttons */
+.controls {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 22px;
+  border-radius: 25px;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+button.light { background: #ffffff; color: #111; }
+button.dark { background: #111; color: white; }
+button.sepia { background: #f4d28f; color: #4a3c2a; }
+button.clear { background: #ef4444; color: white; }
+
+.reader {
+  margin-top: 15px;
+  border-radius: 15px;
+  padding: 25px;
+  line-height: 1.8;
+  font-size: 17px;
+  min-height: 200px;
+  transition: all 0.3s ease;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+/* Modes */
+.light-mode { background: #f0ecec; color: black; }
+.dark-mode { background: #121212; color: white; }
+.sepia-mode { background: #f4ecd8; color:#B5651D; }
+
+/* Progress Bar */
+.progress-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  background: #2563eb;
+  width: 0;
+  transition: width 0.2s;
+  border-radius: 2px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  color: #444;
+  font-size: 14px;
+  padding: 10px;
+}
