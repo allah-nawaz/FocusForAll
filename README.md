@@ -1,4 +1,4 @@
-# FocusForAll (Reading App)
+# FocusForAll (Calm space for Reading)
 
 **FocusForAll** is a distraction-free reading web app designed to help users stay focused and comfortable while reading online.  
 It provides **Light, Dark, and Sepia** modes to reduce eye strain and enhance visual comfort for all types of readers.
