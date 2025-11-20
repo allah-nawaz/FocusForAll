@@ -1,4 +1,4 @@
-# 🌟 FocusForAll
+# FocusForAll (Reading App)
 
 **FocusForAll** is a distraction-free reading web app designed to help users stay focused and comfortable while reading online.  
 It provides **Light, Dark, and Sepia** modes to reduce eye strain and enhance visual comfort for all types of readers.
@@ -15,7 +15,7 @@ It provides **Light, Dark, and Sepia** modes to reduce eye strain and enhance vi
 ---
 
 ##  Visual Experience Insights
-Using analytics, **Dark Mode** was found to be the most preferred by users with **19 clicks**, compared to **13** for both Light and Sepia modes — proving that design and contrast strongly affect user engagement.
+Using analytics, **Dark Mode** was found to be the most preferred by users with **19 clicks**, compared to **13** for both Light and Sepia modes, proving that design and contrast strongly affect user engagement.
 
 ---
 
@@ -50,6 +50,6 @@ To explore how **design and accessibility choices** impact user engagement using
 ###  User Click Analysis
 ![Click Analysis Chart](./images/chart.png)
 
-"""
+#### Allah Nawaz
 
 
